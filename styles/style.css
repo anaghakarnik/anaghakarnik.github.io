@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+
+    --main-blue: #004AAD;
+    --light-blue: #BECEE8;
+    --text-gray: #37302D;
+    --slate-gray: lightslategray;
+    /* Glacial Indifference */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+
+    background-color: var(--light-blue);
+    color: var(--main-blue);
+
+}
+
+.menu-title {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 20px 0;
+
+    text-transform: uppercase;
+}
+
+.menu-links {
+    justify-content: space-evenly;
+}
+
+.menu-link {
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-link:active, .menu-link:visited {
+    color: var(--main-blue);
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    background-color: var(--main-blue);
+    color: white;
+}
+
+
+main {
+    padding: 20px 24px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 300px;
+}
+
+.about-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-header {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 20px 0;
+    color: var(--main-blue);
+
+}
+
+.line {
+    width: 100%;
+    margin: 10px 0;
+    height: 2px;
+    background: var(--light-blue);
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 14px 0;
+    color: var(--text-gray);
+
+}
+
+.link-style-none {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-style-none::after {
+    text-decoration: none;
+    color: inherit
+}
+
+.section-title {
+    color: var(--main-blue);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.project-img img {
+    width: 100%;
+}
+
+.projects {
+    padding: 12px 0;
+}
+
+.project-1, .project-2 {
+    display: grid;
+    padding: 12px 0;
+}
+
+.project-title {
+    color: var(--main-blue);
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.project-subtitle {
+    color: var(--slate-gray);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 14px;
+    color: white;
+    background-color: var(--main-blue);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.education {
+    padding: 10px 0;
+}
+
+.education-1, .education-2 {
+    padding: 10px 0;
+}
+
+.edu-logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.uic_logo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.au_logo {
+    width: 90%;
+    object-fit: cover;
+}
+
+.edu-title {
+    margin: 10px 0;
+    color: var(--main-blue);
+    font-size: 18px;
+}
+
+.edu-major, .edu-date {
+    color: lightslategray;
+}
+
+.artwork {
+    padding: 0;
+}
+
+footer {
+    background-color: var(--main-blue);
+    padding: 24px 20px;
+}
+
+.art-grid {
+    display: grid;
+    flex-direction: column;
+}
+
+.art-img {
+    margin: 5px 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
